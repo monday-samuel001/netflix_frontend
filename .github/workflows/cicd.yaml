@@ -30,7 +30,7 @@ jobs:
 
     - name: Docker build 
       run: |
-        docker build -t netflix_frontend:latest .
+        docker build -t netflix_frontend_cr .
 
     - name: Tag and Push Image to Amazon ECR
       env:
